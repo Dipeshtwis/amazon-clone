@@ -1,10 +1,11 @@
 import './App.css';
+import Header from './components/Header';
 
 function App() {
   return (
     //BEM
     <div className="App">
-      <h1>Buildig Amazon store</h1>
+      <Header />
     </div>
   );
 }
