@@ -3,7 +3,7 @@ import SearchIcon from '@material-ui/icons/Search';
 import ShoppingBasketIcon from '@material-ui/icons/ShoppingBasket';
 import '../assets/stylesheet/Header.css';
 
-function Header() {
+const Header = () => {
     return (
         <div className='header'>
           <img className='header__logo' src="http://pngimg.com/uploads/amazon/amazon_PNG11.png" alt='logo' />
